@@ -62,3 +62,26 @@
 .text_info_each::before{
     content:"· ";
 }
+
+.notice{
+    float:right;
+    font-size: 0.6em;
+}
+
+
+.deadline{
+    float: right;
+    color: #ffb829;
+}
+
+.deadline::after{
+    content: "截止";
+}
+
+.deadline:empty{
+    color:#ff3e0e
+}
+
+.deadline:empty::before{
+    content: "已";
+}
