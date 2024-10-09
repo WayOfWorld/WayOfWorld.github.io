@@ -71,7 +71,7 @@
 
 .deadline{
     float: right;
-    color: #ffb829;
+    color: #20db61;
 }
 
 .deadline::after{
@@ -84,4 +84,8 @@
 
 .deadline:empty::before{
     content: "已";
+}
+
+.notice[important='1']{
+    color: #df3333;
 }
